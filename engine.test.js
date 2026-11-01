@@ -1,0 +1,12 @@
+const assert=require('node:assert/strict');const J=require('./engine.js');
+const empty=()=>Array.from({length:10},()=>Array(9).fill(null));
+const has=(a,r,c)=>a.some(([y,x])=>y===r&&x===c);
+let b=J.initial();assert.equal(b.flat().filter(Boolean).length,32);assert.equal(J.check(b,'cho'),false);assert.equal(J.check(b,'han'),false);assert.equal(J.raw(b,7,1).length,0);assert(has(J.legal(b,6,0),5,0));assert(!has(J.legal(b,6,0),7,0));
+b=empty();b[5][4]={s:'cho',t:'H'};assert.equal(J.raw(b,5,4).length,8);b[4][4]={s:'cho',t:'S'};assert(!has(J.raw(b,5,4),3,3));assert(!has(J.raw(b,5,4),3,5));
+b=empty();b[5][4]={s:'cho',t:'E'};assert.equal(J.raw(b,5,4).length,8);b[3][3]={s:'han',t:'S'};assert(!has(J.raw(b,5,4),2,2));
+b=empty();b[5][0]={s:'cho',t:'C'};b[5][2]={s:'han',t:'S'};b[5][5]={s:'han',t:'C'};assert(has(J.raw(b,5,0),5,4));assert(!has(J.raw(b,5,0),5,5));b[5][2].t='C';assert.equal(J.raw(b,5,0).length,0);
+b=empty();b[0][3]={s:'cho',t:'C'};b[1][4]={s:'han',t:'G'};assert(has(J.raw(b,0,3),2,5));b[0][3].t='R';assert(has(J.raw(b,0,3),1,4));assert(!has(J.raw(b,0,3),2,5));
+b=empty();b[1][4]={s:'han',t:'K'};b[8][4]={s:'cho',t:'K'};assert(J.facing(b));assert(!J.check(b,'cho'));assert(!has(J.legal(b,8,4),7,4));assert(has(J.legal(b,8,4),8,3));b[5][4]={s:'cho',t:'R'};b[3][4]={s:'han',t:'R'};assert(!has(J.legal(b,5,4),5,3));assert(has(J.legal(b,5,4),3,4));
+b=empty();b[1][4]={s:'han',t:'K'};assert.equal(J.raw(b,1,4).length,8);b[7][3]={s:'han',t:'S'};assert(has(J.raw(b,7,3),8,4));assert(!has(J.raw(b,7,3),6,4));
+b=J.initial();const m=J.choose(b,'cho');assert(m);assert(has(J.legal(b,m.r,m.c),m.y,m.x));
+console.log('PASS: initial setup, soldiers, horse blocks, elephant blocks, cannon screens, palace diagonals, check safety, bikjang, AI legality.');

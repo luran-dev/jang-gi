@@ -1,0 +1,133 @@
+- banner:
+  - link "한 수 홈" [ref=e1]: "將 한 수 HANSU · KOREAN CHESS"
+  - button "장기 두는 법" [ref=e2]: "? 장기 두는 법"
+- main:
+  - text: "일상에 잠깐, 장기 한 판"
+  - heading "좋은 수는, 여유에서." [level=1]
+  - text: "서두르지 않아도 괜찮아요. 당신의 한 수를 놓아보세요. 설치 없이 바로 즐기는 장기"
+  - region "장기 대국" [ref=e3]:
+    - text: "漢 컴퓨터 한 · 漢  /  입문 난이도"
+    - group "장기판. 방향키로 이동, 엔터로 선택":
+      - button "1열 1행 한 차" [ref=e4]
+      - button "2열 1행 한 상" [ref=e5]
+      - button "3열 1행 한 마" [ref=e6]
+      - button "4열 1행 한 사" [ref=e7]
+      - button "5열 1행 빈 자리" [ref=e8]
+      - button "6열 1행 한 사" [ref=e9]
+      - button "7열 1행 한 마" [ref=e10]
+      - button "8열 1행 한 상" [ref=e11]
+      - button "9열 1행 한 차" [ref=e12]
+      - button "1열 2행 빈 자리" [ref=e13]
+      - button "2열 2행 빈 자리" [ref=e14]
+      - button "3열 2행 빈 자리" [ref=e15]
+      - button "4열 2행 빈 자리" [ref=e16]
+      - button "5열 2행 한 궁" [ref=e17]
+      - button "6열 2행 빈 자리" [ref=e18]
+      - button "7열 2행 빈 자리" [ref=e19]
+      - button "8열 2행 빈 자리" [ref=e20]
+      - button "9열 2행 빈 자리" [ref=e21]
+      - button "1열 3행 빈 자리" [ref=e22]
+      - button "2열 3행 한 포" [ref=e23]
+      - button "3열 3행 빈 자리" [ref=e24]
+      - button "4열 3행 빈 자리" [ref=e25]
+      - button "5열 3행 빈 자리" [ref=e26]
+      - button "6열 3행 빈 자리" [ref=e27]
+      - button "7열 3행 빈 자리" [ref=e28]
+      - button "8열 3행 한 포" [ref=e29]
+      - button "9열 3행 빈 자리" [ref=e30]
+      - button "1열 4행 한 졸" [ref=e31]
+      - button "2열 4행 빈 자리" [ref=e32]
+      - button "3열 4행 한 졸" [ref=e33]
+      - button "4열 4행 빈 자리" [ref=e34]
+      - button "5열 4행 한 졸" [ref=e35]
+      - button "6열 4행 빈 자리" [ref=e36]
+      - button "7열 4행 한 졸" [ref=e37]
+      - button "8열 4행 빈 자리" [ref=e38]
+      - button "9열 4행 한 졸" [ref=e39]
+      - button "1열 5행 빈 자리" [ref=e40]
+      - button "2열 5행 빈 자리" [ref=e41]
+      - button "3열 5행 빈 자리" [ref=e42]
+      - button "4열 5행 빈 자리" [ref=e43]
+      - button "5열 5행 빈 자리" [ref=e44]
+      - button "6열 5행 빈 자리" [ref=e45]
+      - button "7열 5행 빈 자리" [ref=e46]
+      - button "8열 5행 빈 자리" [ref=e47]
+      - button "9열 5행 빈 자리" [ref=e48]
+      - button "1열 6행 빈 자리" [ref=e49]
+      - button "2열 6행 빈 자리" [ref=e50]
+      - button "3열 6행 빈 자리" [ref=e51]
+      - button "4열 6행 빈 자리" [ref=e52]
+      - button "5열 6행 빈 자리" [ref=e53]
+      - button "6열 6행 빈 자리" [ref=e54]
+      - button "7열 6행 빈 자리" [ref=e55]
+      - button "8열 6행 빈 자리" [ref=e56]
+      - button "9열 6행 빈 자리" [ref=e57]
+      - button "1열 7행 초 졸" [ref=e58]
+      - button "2열 7행 빈 자리" [ref=e59]
+      - button "3열 7행 초 졸" [ref=e60]
+      - button "4열 7행 빈 자리" [ref=e61]
+      - button "5열 7행 초 졸" [ref=e62]
+      - button "6열 7행 빈 자리" [ref=e63]
+      - button "7열 7행 초 졸" [ref=e64]
+      - button "8열 7행 빈 자리" [ref=e65]
+      - button "9열 7행 초 졸" [ref=e66]
+      - button "1열 8행 빈 자리" [ref=e67]
+      - button "2열 8행 초 포" [ref=e68]
+      - button "3열 8행 빈 자리" [ref=e69]
+      - button "4열 8행 빈 자리" [ref=e70]
+      - button "5열 8행 빈 자리" [ref=e71]
+      - button "6열 8행 빈 자리" [ref=e72]
+      - button "7열 8행 빈 자리" [ref=e73]
+      - button "8열 8행 초 포" [ref=e74]
+      - button "9열 8행 빈 자리" [ref=e75]
+      - button "1열 9행 빈 자리" [ref=e76]
+      - button "2열 9행 빈 자리" [ref=e77]
+      - button "3열 9행 빈 자리" [ref=e78]
+      - button "4열 9행 빈 자리" [ref=e79]
+      - button "5열 9행 초 궁" [ref=e80]
+      - button "6열 9행 빈 자리" [ref=e81]
+      - button "7열 9행 빈 자리" [ref=e82]
+      - button "8열 9행 빈 자리" [ref=e83]
+      - button "9열 9행 빈 자리" [ref=e84]
+      - button "1열 10행 초 차" [ref=e85]
+      - button "2열 10행 초 상" [ref=e86]
+      - button "3열 10행 초 마" [ref=e87]
+      - button "4열 10행 초 사" [ref=e88]
+      - button "5열 10행 빈 자리" [ref=e89]
+      - button "6열 10행 초 사" [ref=e90]
+      - button "7열 10행 초 마" [ref=e91]
+      - button "8열 10행 초 상" [ref=e92]
+      - button "9열 10행 초 차" [ref=e93]
+    - text: "楚 나  YOU 초 · 楚 / 먼저 두는 쪽 내 차례\n  말을 선택하면 이동할 수 있는 곳이 보여요"
+    - button "장기판 뒤집기" [ref=e94]: "⇅ 장기판 뒤집기"
+  - complementary:
+    - region:
+      - heading "대국 설정" [level=2]
+      - text: "나만의 한 판"
+      - button "컴퓨터 대전" [ref=e95]
+      - button "친구와 대전" [ref=e96]
+      - label: "마 · 상 배치"
+      - combobox "마 · 상 배치" [ref=e97]:
+        - option "바깥상 · 馬 안쪽 / 象 바깥쪽" (selected) value="outer"
+        - option "안상 · 象 안쪽 / 馬 바깥쪽" value="inner"
+      - button "새 대국 시작" [ref=e98]
+      - status: "초의 차례입니다 파란 말을 선택해 첫 수를 두세요."
+      - button "무르기" [ref=e99] [disabled]
+      - button "한 수 쉼" [ref=e100]
+    - region:
+      - heading "대국 기록" [level=2]
+      - text: "0수 수 초 楚 한 漢 한 수, 한 수 쌓이는 이야기 첫 수를 두면 기보가 여기에 남아요."
+    - region:
+      - heading "알아두면 좋은 한 수" [level=2]
+      - text: "포는 다른 말을 하나 넘어 움직여요.단, 포를 넘거나 포를 잡을 수는 없어요."
+      - button "다음 도움말" [ref=e101]
+- contentinfo: "한 수 오래된 놀이, 새로운 여유.함께 두는 즐거움 · 우리 장기"
+{ width: 1440, scroll: 1425, pieces: 32 }
+After move 2수
+After undo 0수
+After passes 연속 한 수 쉼 · 무승부
+Rules visible true
+Flipped 9열 10행 초 차
+Mobile { width: 390, scroll: 390, pieces: 32 }
+Tablet { width: 768, scroll: 753 }
+SUCCESS
